@@ -42,6 +42,9 @@ node_modules/bootstrap/dist/css/bootstrap.min
 
     ng serve
 
+
+-------------DO NOT USE - Unless Specified------------------------------------------
+
 8. Make sure you install RxJS v6 by running
 
     npm install --save rxjs@6 
@@ -50,6 +53,7 @@ In addition, also install the rxjs-compat package:
 
     npm install --save rxjs-compat
 
+-------------------------------------------------------
 # For a New server
 
 *Note: If it says "This command is not available when running the Angular CLI outside a workspace, you might not be in the correct project folder*

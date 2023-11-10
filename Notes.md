@@ -36,3 +36,17 @@ It's not happy. Going to start over again. Going to try and get SOMETHING up...
 
 OKAY! I have the base of the files from the nets. Going to reapply the app module and routing module now...
 
+## 11/9/23
+
+YEEHOO! Had to split the folders and remake everything. AGAIN!
+
+ooooh... this might prove helpful
+
+https://www.codewars.com
+
+OKay! So I got the light switched to dark from the CSS, because there was no light version only dark. Also deleted the asterisk off of two locations...
+
+*CURSES! VITE STRIKES AGAIN*
+
+*I am for right now setting up test space to run some 3js tests...*
+
