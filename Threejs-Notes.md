@@ -108,3 +108,12 @@ The "dist" folder is the one you want to upload online! If you already have the 
 
 NOW FORGET THAT! WE'RE USING VERCEL!
 
+    npm i -g vercel
+
+add to the package.json
+
+![Alt text](image-2.png)
+
+Then we log in to Vercel
+    npm run deploy
+
