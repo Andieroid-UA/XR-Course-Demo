@@ -4,15 +4,13 @@
 
 ### *Packages Used*
 1. Vite: Makes angular faster. It will optimize the files, cache breaking/emptying, source mapping (when source is minified), and you can run a local server for testing!
-2. Tailwind CSS
-3. 3JS
-4. React (plugin)
-5. NPM
-6. Lil GUI
-7. Angular
-8. GLSL (plugin)
+2. 3JS
+3. React (plugin)
+4. NPM
+5. Angular
+6. GLSL (plugin)
 
-### PART ONE. Start with your Angular Environment
+### PART ONE. Start with your Environment
 
 1. Install Angular
 
@@ -63,54 +61,50 @@ node_modules/bootstrap/dist/css/bootstrap.min
 
     npm install vite
 
-12. 
+12. !!!IMPORTANT!!!
 
+When you share DELETE these two packages to prevent node modules from getting messy
 
-You stopped at 26:50.... pick up tomorrow
+- package.json
+- package-lock.json
+
+13. Making a basic website, yaaaay!!
+
+3JS will NOT WORK by just opening the html page!
+
+Okay, after you are ready put in the magic words...
+
+    npm run dev
+
+![Alt text](image-1.png)
+
+IT WORKS! Because of a server run by vite.
+
+*"Build" will output the FINAL version of the website*
+==================================================================================================================================================================
+### PART TWO: We can actually start coding stuff now that the basics are set
+
+1. Debug on other devices
+
+OMGGG you can log on to the URL while you're config for computer. Based.
+
+2. Physically Based Rendering (PBR)
+
+How we get realistic lighting based on the sandwhich layers of textures!
+
+3. Slapping texture on the cube
 
 
 ==================================================================================================================================================================
-### PART TWO: 
+### PART THREE: Going LIVE! To share our cool stuff
 
-Initialize app (Vite)
+- You can't just throw your files on a traditional hosting site... you need to export
 
-    npm create vite@latest ./ -- --template react
+    npm run build
 
-### PART THREE: 
+*We are now using VITE insteadl of Webpack, but the config and behavior are the same*
 
-Install NPM and Tailwind CSS 
+The "dist" folder is the one you want to upload online! If you already have the folder it will just overwrite them again
 
-(make styling of entire app. Like Bootstrap)
+NOW FORGET THAT! WE'RE USING VERCEL!
 
-    npm install -D tailwindcss
-
-    npx tailwindcss init
-
-### PART FOUR: 
-
-Other packages
-
-Tilt uses older versions of react which is why we are using a legacy version. I used the non-legacy version of the install because that is all that would work on my machine.
-
-    npm install --legacy-peer-deps
-
-React-based 3JS library, going to allow us to create 3JS code in React fashion
-
-    npm install --legacy--peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
-
-### PART FIVE: React Tutorial
-
-
-================================
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) 
-for Fast Refresh
-
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) 
-for Fast Refresh
