@@ -11,6 +11,18 @@ OH WOW! Is there a template JUST for Angular?!
 
 * /******************************************************************/
 
+* npm install -g @angular/cli
+
+ng new angular-three
+
+cd angular-three
+
+npm i three
+
+npm i @types/three
+
+* /******************************************************************/
+
 ### PART ONE. Start with your Environment
 
 #### 1. Install Angular
