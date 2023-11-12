@@ -4,6 +4,8 @@
 
 <https://stackblitz.com/edit/angular-threejs-demo-basic-radkpq?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fhello.component.ts>
 
+<https://github.com/Andieroid-UA/Cube3>
+
 OH WOW! Is there a template JUST for Angular?!
 <https://vercel.com/guides/deploying-angular-with-vercel>
 
