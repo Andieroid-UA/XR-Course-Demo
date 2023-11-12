@@ -1,8 +1,11 @@
-# How to reverse-engineer a 3JS Site Notes
+# How to reverse-engineer a 3JS Site Notes (STill pending!!)
 
 <https://kittytreeplanner.neocities.org/kittycad/>
 
 <https://stackblitz.com/edit/angular-threejs-demo-basic-radkpq?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fhello.component.ts>
+
+OH WOW! Is there a template JUST for Angular?!
+<https://vercel.com/guides/deploying-angular-with-vercel>
 
 ### *Packages Used*
 1. Vite: Makes angular faster. It will optimize the files, cache breaking/emptying, source mapping (when source is minified), and you can run a local server for testing!
@@ -31,6 +34,8 @@ Choose "CSS"
 
 #### 3. SKIP Bootstrap (IT causes issues when exporting, figure out later)
 
+npm install bootstrap@5
+
 #### 4. Add Bootstrap to the angular.JSON file
 
 "node_modules/bootstrap/dist/css/bootstrap.min"
@@ -55,7 +60,7 @@ Choose "CSS"
 
 10. Install Vite
 
-    npm install vite
+    npm install --save-dev vite
 
 11. !!!IMPORTANT!!!
 
@@ -64,62 +69,32 @@ When you share DELETE these two packages to prevent node modules from getting me
 - package.json
 - package-lock.json
 
-12. Making a basic website, yaaaay!!
+12. Run this command
+    npx vite
 
-3JS will NOT WORK by just opening the html page!
+13. Run this command:
+    npx vite build
 
-![Alt text](image-1.png)
+14. Then run this command:
+    npx serve
 
-This worked because I was NOT using Angular...
-
-
-==================================================================================================================================================================
-### PART THREE: Going LIVE! To share our cool stuff
-
-
-OH WOW! Is there a template JUST for Angular?!
-
-<https://vercel.com/guides/deploying-angular-with-vercel>
-
-
-*Note to self, just select the project's name folder, the one you name when you are doing step 2 in part one, the (ng new [my-first-app] --no-strict)
-
-- You can't just throw your files on a traditional hosting site... you need to export
-
+15. And this one too:
     npm run build
 
-*We are now using VITE insteadl of Webpack, but the config and behavior are the same*
-
-The "dist" folder is the one you want to upload online! If you already have the folder it will just overwrite them again
-
-NOW FORGET THAT! WE'RE USING VERCEL!
-
+16. Run this command:
     npm i -g vercel
 
-If you need to update your version
+17. If you need to update your version
     npm i -g vercel@latest
 
-Updating latest version of uuid:
+18. Updating latest version of uuid:
     npm install uuid@latest
 
-add to the package.json
+19. add to the package.json
 
 ![Alt text](image-2.png)
 
-Then we log in to Vercel
+20. Then we log in to Vercel
     
     Vercel
-
-(make sure it's your entire project. If it's portions like in here, best to export as a NEW project and one at a time... for testing)
-
-If it's not doing npm run dev... something is up
-
-<https://www.youtube.com/watch?v=y2ubmHHS2RU>
-
-![Alt text](image-3.png)
-
-VERY COOL. It can auto configure for the project or you can set your own.
-
-Angular is already here (you can skip to 5:04)
-
 
