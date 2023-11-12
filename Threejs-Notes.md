@@ -7,14 +7,6 @@
 OH WOW! Is there a template JUST for Angular?!
 <https://vercel.com/guides/deploying-angular-with-vercel>
 
-### *Packages Used*
-1. Vite: Makes angular faster. It will optimize the files, cache breaking/emptying, source mapping (when source is minified), and you can run a local server for testing!
-2. 3JS
-3. React (plugin)
-4. NPM
-5. Angular
-6. GLSL (plugin)
-
 * /******************************************************************/
 
 ### PART ONE. Start with your Environment
