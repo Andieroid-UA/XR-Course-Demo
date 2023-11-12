@@ -2,6 +2,8 @@
 
 <https://kittytreeplanner.neocities.org/kittycad/>
 
+<https://stackblitz.com/edit/angular-threejs-demo-basic-radkpq?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fhello.component.ts>
+
 ### *Packages Used*
 1. Vite: Makes angular faster. It will optimize the files, cache breaking/emptying, source mapping (when source is minified), and you can run a local server for testing!
 2. 3JS
@@ -71,27 +73,6 @@ When you share DELETE these two packages to prevent node modules from getting me
 This worked because I was NOT using Angular...
 
 
-
-
-
-
-*"Build" will output the FINAL version of the website*
-==================================================================================================================================================================
-### PART TWO: We can actually start coding stuff now that the basics are set
-
-*To be used with 10-textures*
-
-1. Debug on other devices
-
-OMGGG you can log on to the URL while you're config for computer. Based.
-
-2. Physically Based Rendering (PBR)
-
-How we get realistic lighting based on the sandwhich layers of textures!
-
-3. Slapping texture on the cube
-
-
 ==================================================================================================================================================================
 ### PART THREE: Going LIVE! To share our cool stuff
 
@@ -126,7 +107,8 @@ add to the package.json
 ![Alt text](image-2.png)
 
 Then we log in to Vercel
-    npm run deploy
+    
+    Vercel
 
 (make sure it's your entire project. If it's portions like in here, best to export as a NEW project and one at a time... for testing)
 
